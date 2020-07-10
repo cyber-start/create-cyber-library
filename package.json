@@ -20,6 +20,6 @@
     "prompt-promise": "^1.0.3"
   },
   "bin": {
-    "create-spa-pro": "./index.js"
+    "create-nice-pro": "./index.js"
   }
 }
