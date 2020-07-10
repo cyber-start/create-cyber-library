@@ -4,3 +4,16 @@
 
 ```bash
 npm install normalize-spa-project/create-spa-pro -g
+```
+
+<h2 align="center">Usage</h2>
+
+npm init 方式:
+```bash
+npm init spa-pro
+```
+
+全局命令方式:
+```bash
+create-spa-pro
+```
