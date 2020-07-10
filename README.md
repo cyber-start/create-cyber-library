@@ -3,7 +3,7 @@
 <h2 align="center">Install</h2>
 
 ```bash
-npm install nice-web-work/create-spa-pro -g
+npm install nice-web-work/create-nice-pro -g
 ```
 
 <h2 align="center">Usage</h2>
