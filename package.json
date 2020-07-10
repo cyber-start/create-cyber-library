@@ -1,0 +1,25 @@
+{
+  "name": "create-spa-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinners": "^2.3.0",
+    "download-git-repo": "^3.0.2",
+    "es6-promisify": "^6.1.1",
+    "inquirer": "^7.3.1",
+    "jsonfile": "^6.0.1",
+    "module-alias": "^2.2.2",
+    "ora": "^4.0.4",
+    "prompt-promise": "^1.0.3"
+  },
+  "bin": {
+    "create-spa-pro": "./index.js"
+  }
+}
