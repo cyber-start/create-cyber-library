@@ -3,17 +3,17 @@
 <h2 align="center">Install</h2>
 
 ```bash
-npm install nice-web-work/create-nice-pro -g
+npm install nice-web-work/create-web-work -g
 ```
 
 <h2 align="center">Usage</h2>
 
 npm init 方式:
 ```bash
-npm init nice-pro
+npm init web-work
 ```
 
 全局命令方式:
 ```bash
-create-nice-pro
+create-web-work
 ```
