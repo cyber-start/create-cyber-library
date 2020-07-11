@@ -13,6 +13,7 @@ module.exports = async (projectName) => {
     const rewriteJsonObject = Object.assign({}, jsonObject, {
       name: projectName
     });
+    rewriteJsonObject.devDependencies["spa-build-core"] = "github:nice-web-work/spa-build-core";
     await promisify(writeFile)(jsonFilePath, rewriteJsonObject, { spaces: 2, EOL: '\r\n' });
     toast.succeed("package.json修改成功!");
   } catch (error) {
