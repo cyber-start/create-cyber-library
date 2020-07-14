@@ -6,10 +6,10 @@ const changeJsonFile = require("@/utils/change-jsonfile");
 
 (async () => {
   try {
-    const template = await selectTemplate();
+    const { remote, devDependencies } = await selectTemplate();
     const projectName = await prompt("请输入项目名称:");
-    await getTemplate({ projectName, template });
-    await changeJsonFile(projectName);
+    await getTemplate({ projectName, remote });
+    await changeJsonFile({ projectName, devDependencies });
   } catch (error) {
     throw error;
   };
