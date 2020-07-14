@@ -14,6 +14,9 @@ module.exports = async () => {
     }, {
       name: "es6-babel-library",
       value: "https://github.com/nice-web-work/es6-babel-library"
+    }, {
+      name: "easy-koa-project",
+      value: "https://github.com/nice-web-work/easy-koa-project"
     }]
   });
   return template;
