@@ -10,10 +10,10 @@ module.exports = async () => {
       message: "选择拉取的脚手架类型:",
       choices: [{
         name: "dva-app",
-        value: "https://github.com/nice-web-work/dva-spa-template"
+        value: "https://github.com/nice-web-work/dva-spa-project"
       }, {
         name: "es6-babel-library",
-        value: "https://github.com/nice-web-work/es6-lib-template"
+        value: "https://github.com/nice-web-work/es6-babel-library"
       }]
     });
     return template;
