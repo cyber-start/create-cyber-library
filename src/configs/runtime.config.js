@@ -22,6 +22,7 @@ exports.LIBRARY_LIST = [{
   value: {
     type: "library",
     devDependencies: {
+      "library-core": "github:nice-web-work/library-core",
       "spa-build-core": "github:nice-web-work/spa-build-core"
     },
     remote: "https://github.com/nice-web-work/es6-babel-library"
