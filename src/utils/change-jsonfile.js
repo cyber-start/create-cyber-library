@@ -4,11 +4,11 @@ const { promisify } = require("es6-promisify");
 const { readFile, writeFile } = require("jsonfile");
 
 
-module.exports = async ({ projectName, devDependencies }) => {
+module.exports = async ({ folderName, projectName, devDependencies }) => {
   const toast = ora();
   try {
     toast.start("修改package.json");
-    const jsonFilePath = path.resolve(process.cwd(), projectName, "./package.json");
+    const jsonFilePath = path.resolve(process.cwd(), folderName, "./package.json");
     const jsonObject = await promisify(readFile)(jsonFilePath);
     const rewriteJsonObject = Object.assign({}, jsonObject, {
       name: projectName,

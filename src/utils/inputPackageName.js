@@ -8,17 +8,17 @@ module.exports = async () => {
     prompt.message = undefined;
     prompt.delimiter = ":";
     prompt.start();
-    const { projectName } = await promisify(prompt.get)([{
-      name: "projectName",
+    const { packageName } = await promisify(prompt.get)([{
+      name: "packageName",
       required: true,
       message: colors.red("项目名称必须填写!"),
       description: colors.white("请输入项目名称")
     }]);
-    return projectName;
+    return packageName;
   } catch (error) {
     if (error.message === "canceled") {
       process.exit(0);
     };
     throw error;
-  }
+  };
 };
