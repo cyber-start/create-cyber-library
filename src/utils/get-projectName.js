@@ -10,6 +10,8 @@ module.exports = async () => {
     prompt.start();
     const { projectName } = await promisify(prompt.get)([{
       name: "projectName",
+      required: true,
+      message: colors.red("项目名称必须填写!"),
       description: colors.white("请输入项目名称")
     }]);
     return projectName;

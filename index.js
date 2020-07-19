@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-require("module-alias").addAlias("@", __dirname);
+const path = require("path");
+require("module-alias").addAlias("@", path.join(__dirname, "./src/"));
+
 process.on("uncaughtException", (error) => {
   console.log(error);
   process.exit(0);
@@ -10,5 +12,5 @@ process.on("unhandledRejection", (error) => {
   process.exit(0);
 });
 
-require("@/scripts/index.js");
+require("./src/index.js");
 
