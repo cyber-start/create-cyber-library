@@ -1,4 +1,3 @@
-const inquirer = require("inquirer");
 
 exports.PROJECT_LIST = [{
   name: "dva-app-project",
