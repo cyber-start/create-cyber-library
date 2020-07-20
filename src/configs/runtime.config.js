@@ -5,7 +5,7 @@ exports.PROJECT_LIST = [{
   value: {
     type: "project",
     devDependencies: {
-      "spa-build-core": "github:nice-web-work/spa-build-core"
+      "spa-cli": "github:nice-web-work/spa-cli"
     },
     remote: "https://github.com/nice-web-work/dva-spa-project"
   }
@@ -22,8 +22,8 @@ exports.LIBRARY_LIST = [{
   value: {
     type: "library",
     devDependencies: {
-      "library-core": "github:nice-web-work/library-core",
-      "spa-build-core": "github:nice-web-work/spa-build-core"
+      "lib-cli": "github:nice-web-work/lib-cli",
+      "spa-cli": "github:nice-web-work/spa-cli"
     },
     remote: "https://github.com/nice-web-work/es6-babel-library"
   }
