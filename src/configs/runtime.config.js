@@ -29,7 +29,7 @@ exports.LIBRARY_LIST = [{
 }, {
   name: "cli-project",
   value: {
-    type: "project",
+    type: "library",
     remote: "https://github.com/cyber-worker/cli-project"
   }
 }];
