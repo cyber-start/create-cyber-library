@@ -9,6 +9,12 @@ exports.PROJECT_LIST = [{
     remote: "https://github.com/nice-web-work/dva-spa-project"
   }
 }, {
+  name: "cli-project",
+  value: {
+    type: "project",
+    remote: "https://github.com/nice-web-work/cli-project"
+  }
+}, {
   name: "easy-koa-project",
   value: {
     type: "project",
