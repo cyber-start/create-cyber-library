@@ -4,21 +4,21 @@ exports.PROJECT_LIST = [{
   value: {
     type: "project",
     devDependencies: {
-      "spa-cli": "github:nice-web-work/spa-cli"
+      "@cyber/spa-cli": "github:cyber-worker/spa-cli"
     },
-    remote: "https://github.com/nice-web-work/dva-spa-project"
+    remote: "https://github.com/cyber-worker/dva-spa-project"
   }
 }, {
   name: "cli-project",
   value: {
     type: "project",
-    remote: "https://github.com/nice-web-work/cli-project"
+    remote: "https://github.com/cyber-worker/cli-project"
   }
 }, {
   name: "easy-koa-project",
   value: {
     type: "project",
-    remote: "https://github.com/nice-web-work/easy-koa-project"
+    remote: "https://github.com/cyber-worker/easy-koa-project"
   }
 }];
 
@@ -27,9 +27,9 @@ exports.LIBRARY_LIST = [{
   value: {
     type: "library",
     devDependencies: {
-      "lib-cli": "github:nice-web-work/lib-cli",
-      "spa-cli": "github:nice-web-work/spa-cli"
+      "@cyber/lib-cli": "github:cyber-worker/lib-cli",
+      "@cyber/spa-cli": "github:cyber-worker/spa-cli"
     },
-    remote: "https://github.com/nice-web-work/es6-babel-library"
+    remote: "https://github.com/cyber-worker/es6-babel-library"
   }
 }];
