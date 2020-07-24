@@ -1,5 +1,5 @@
 {
-  "name": "create-cyber-work",
+  "name": "@cyber-work/create-cyber-work",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,7 +22,9 @@
     "prompt": "^1.0.0",
     "validate-npm-package-name": "^3.0.0"
   },
-  "bin": {
-    "create-cyber-work": "./index.js"
+  "bin": "./index.js",
+  "repository": {
+    "type": "github.com",
+    "url": "https://github.com/cyber-worker/create-cyber-work"
   }
 }
