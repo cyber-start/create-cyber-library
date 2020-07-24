@@ -1,16 +1,15 @@
 #!/usr/bin/env node
-const path = require("path");
-require("module-alias").addAlias("@", path.join(__dirname, "./src/"));
+require("./utils/initial");
+const createLibrary = require("@/scripts/create-library");
+const selectTemplate = require("@/utils/selectTemplate");
 
-process.on("uncaughtException", (error) => {
-  console.log(error);
-  process.exit(0);
-});
 
-process.on("unhandledRejection", (error) => {
-  console.log(error);
-  process.exit(0);
-});
-
-require("./src/index.js");
+(async () => {
+  try {
+    const { remote, devDependencies } = await selectTemplate();
+    await createLibrary({ remote, devDependencies });
+  } catch (error) {
+    throw error;
+  };
+})();
 

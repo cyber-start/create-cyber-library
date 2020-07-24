@@ -1,5 +1,5 @@
 {
-  "name": "@cyber-work/create-cyber-work",
+  "name": "@cyber-start/create-cyber-library",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -25,6 +25,6 @@
   "bin": "./index.js",
   "repository": {
     "type": "github.com",
-    "url": "https://github.com/cyber-worker/create-cyber-work"
+    "url": "https://github.com/cyber-start/create-cyber-library"
   }
 }
