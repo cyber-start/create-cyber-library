@@ -18,9 +18,11 @@ module.exports = [{
   }
 }, {
   name: "component-library",
-  devDependencies: {
-    "@cyber-tools/spa-cli": "*",
-    "@cyber-tools/component-build-tools": "*"
-  },
-  remote: "https://github.com/cyber-scaffold/typescript-component-library"
+  value:{
+    devDependencies: {
+      "@cyber-tools/spa-cli": "*",
+      "@cyber-tools/component-build-tools": "*"
+    },
+    remote: "https://github.com/cyber-scaffold/typescript-component-library" 
+  }
 }];
